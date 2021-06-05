@@ -4,7 +4,7 @@
   "description": "Starter File",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss style.css -w"
+    "compile-sass": "node-sass sass/main.scss style.css -w"
   },
   "keywords": [
     "HTML5",
