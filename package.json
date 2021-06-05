@@ -1,0 +1,25 @@
+{
+  "name": "starter-template",
+  "version": "1.0.0",
+  "description": "Starter File",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "SASS",
+    "SCSS"
+  ],
+  "author": "Maruf",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "concat": "^1.0.3",
+    "node-sass": "^6.0.0",
+    "npm-run-all": "^4.1.5",
+    "post-cli": "^1.0.5"
+  }
+}
