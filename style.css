@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  background-color: #CCCCCC; }
+
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0; }
+
+.btn-blue {
+  background: #2F956D; }
+
+.btn-blue:hover {
+  background: #1D6E46; }
+
+.btn-green {
+  background: #2F956D; }
+
+.btn-green:hover {
+  background: #1D6E46; }
+
+.btn-red {
+  background: #993332; }
+
+.btn-red:hover {
+  background: #752423; }
+
+.btn-readmore {
+  background: #fff; }
+
+.btn-readmore:hover {
+  background: #98999A; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff; }
