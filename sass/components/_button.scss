@@ -4,11 +4,13 @@
 .btn-blue:hover{
     background: $color-green-dark;
 }
-.btn-green{
-    background: $color-green-lite;
+.btn-green-lite{
+    border: .1rem solid $color-green-lite;
+    color: $color-green-lite;
 }
-.btn-green:hover{
-    background: $color-green-dark;
+.btn-green-lite:hover{
+    color: $color-white;
+    background-color: $color-green-lite;
 }
 .btn-red{
     background: $color-red-lite;
@@ -21,4 +23,8 @@
 }
 .btn-readmore:hover{
     background: $color-readmore;
+}
+.btn-green-lite-active{
+    background: $color-green-lite;
+    color: $color-white;
 }
