@@ -1,8 +1,27 @@
 .container{
-    width: 1200px;
+    width: 120rem;
     margin: 0 auto;
     background: $color-white;
 }
+
+.heading-text{
+    padding: 5rem 0;
+    text-align: center;
+    h2{
+        font-size: 4rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    p{
+        color: $color-desc;
+        line-height: 2;
+        margin-bottom: 5rem;
+    }
+}
+
+/////////////////////////
+////// HOME SECTION 
+
 /* Section-1 Start*/
 .section-1{
     width: 120rem;
@@ -14,6 +33,7 @@
         background-repeat: no-repeat;
         background-position:  center -40rem;
         background-attachment: fixed;
+
         nav{
             color: $color-white;
             display: flex;
@@ -75,20 +95,6 @@
 
 /* Section-2 Start*/
 .section-2{
-    padding: 5rem 0;
-    .welcome{
-        text-align: center;
-        h2{
-            font-size: 4rem;
-            font-weight: 400;
-            margin-bottom: 30px;
-        }
-        p{
-            color: $color-desc;
-            line-height: 2;
-            margin-bottom: 5rem;
-        }
-    }
     .post{
         .menu{
             display: block;
@@ -179,9 +185,9 @@
 }
 /* Section-3 End*/
 
-/* Footer part Start*/
-footer{
-    color: $color-desc;
-    padding: 3rem 0;
-}
-/* Footer part End*/
+
+
+//////////////////////////////
+///// CONTACT SECTION
+
+

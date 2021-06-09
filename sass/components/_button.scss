@@ -14,9 +14,11 @@
 }
 .btn-red{
     background: $color-red-lite;
+    color: $color-white;
 }
 .btn-red:hover{
     background: $color-red-dark;
+    
 }
 .btn-readmore{
     background: $color-white;
@@ -28,3 +30,21 @@
     background: $color-green-lite;
     color: $color-white;
 }
+.btn-green-dark{
+    background: $color-green-dark;
+    color: white;
+}
+.btn-green-dark:hover {
+    background: $color-green-lite;
+    color: $color-white;
+}
+.btn-blue-dark{
+    background: $color-blue-dark;
+    color: $color-white;
+}
+
+.btn-blue-dark:hover {
+    background: $color-blue-lite;
+    color:$color-white;
+}
+
