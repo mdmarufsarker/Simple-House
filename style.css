@@ -11,7 +11,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
-  background-color: #CCCCCC; }
+  background-color: #cccccc; }
 
 .btn {
   display: inline-block;
@@ -38,18 +38,18 @@ a {
   transition: all .3s; }
 
 .btn-blue {
-  background: #2F956D; }
+  background: #2f956d; }
 
 .btn-blue:hover {
-  background: #1D6E46; }
+  background: #1d6e46; }
 
 .btn-green-lite {
-  border: 0.1rem solid #2F956D;
-  color: #2F956D; }
+  border: 0.1rem solid #2f956d;
+  color: #2f956d; }
 
 .btn-green-lite:hover {
   color: #fff;
-  background-color: #2F956D; }
+  background-color: #2f956d; }
 
 .btn-red {
   background: #993332;
@@ -62,26 +62,26 @@ a {
   background: #fff; }
 
 .btn-readmore:hover {
-  background: #98999A; }
+  background: #98999a; }
 
 .btn-green-lite-active {
-  background: #2F956D;
+  background: #2f956d;
   color: #fff; }
 
 .btn-green-dark {
-  background: #1D6E46;
+  background: #1d6e46;
   color: white; }
 
 .btn-green-dark:hover {
-  background: #2F956D;
+  background: #2f956d;
   color: #fff; }
 
 .btn-blue-dark {
-  background: #1B6F96;
+  background: #1b6f96;
   color: #fff; }
 
 .btn-blue-dark:hover {
-  background: #30759C;
+  background: #30759c;
   color: #fff; }
 
 /* Footer part Start*/
@@ -96,7 +96,6 @@ footer {
   background: #fff; }
 
 .heading-text {
-  padding: 5rem 0;
   text-align: center; }
   .heading-text h2 {
     font-size: 4rem;
@@ -143,7 +142,7 @@ footer {
           .section-1 header nav .nav-item a:nth-child(2):hover::after, .section-1 header nav .nav-item a:nth-child(3):hover::after {
             content: "";
             position: absolute;
-            height: .15rem;
+            height: 0.15rem;
             width: 7rem;
             bottom: -1rem;
             left: 1.1rem;
@@ -155,7 +154,7 @@ footer {
         .section-1 header nav .nav-item .active::after {
           content: "";
           position: absolute;
-          height: .15rem;
+          height: 0.15rem;
           width: 7rem;
           bottom: -1rem;
           left: 1.1rem;
@@ -169,29 +168,28 @@ footer {
   .section-2 .post .menu a {
     font-size: 1.8rem; }
 
-.section-2 .post .posts {
-  margin: 0 2rem; }
-  .section-2 .post .posts .row {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(2, auto);
-    justify-content: space-around;
-    margin-bottom: 3rem; }
-    .section-2 .post .posts .row .item img {
-      max-width: 100%;
-      height: auto; }
-    .section-2 .post .posts .row .item h3 {
-      color: #30759C;
-      font-weight: 400;
-      padding: 1.3rem 0; }
-    .section-2 .post .posts .row .item p {
-      line-height: 1.8;
-      color: #626364;
-      margin-bottom: 2rem; }
-    .section-2 .post .posts .row .item span {
-      display: block;
-      color: #2F956D;
-      padding-bottom: 3rem; }
+.section-2 .post .posts .row {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 2rem;
+  justify-content: space-around;
+  margin-bottom: 3rem; }
+  .section-2 .post .posts .row .item img {
+    max-width: 100%;
+    height: auto; }
+  .section-2 .post .posts .row .item h3 {
+    color: #30759c;
+    font-weight: 400;
+    padding: 1.3rem 0; }
+  .section-2 .post .posts .row .item p {
+    line-height: 1.8;
+    color: #626364;
+    margin-bottom: 2rem; }
+  .section-2 .post .posts .row .item span {
+    display: block;
+    color: #2f956d;
+    padding-bottom: 3rem; }
 
 /* Section-2 End*/
 /* Section-3 Start*/
@@ -211,71 +209,60 @@ footer {
     width: 100%;
     margin-left: -10rem; }
     .section-3 .row .right-part h3 {
-      color: #30759C;
+      color: #30759c;
       font-size: 3rem;
       font-weight: 400;
       padding: 2rem 0; }
     .section-3 .row .right-part p {
-      color: #98999A;
+      color: #98999a;
       line-height: 1.6; }
     .section-3 .row .right-part .more {
       margin: 2rem 10rem 0 0; }
       .section-3 .row .right-part .more button {
         font-size: 1.5rem;
-        border: 0.15rem solid #98999A;
-        color: #98999A; }
+        border: 0.15rem solid #98999a;
+        color: #98999a; }
         .section-3 .row .right-part .more button:hover {
           color: #fff;
-          background-color: #98999A; }
+          background-color: #98999a; }
 
 /* Section-3 End*/
-/*ABOUT SECTION-1 START*/
-.about__post {
-  padding: 0 4.5rem;
-  margin-top: -4rem; }
-  .about__post__long-img {
-    height: 30rem; }
-
-.about-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 6rem; }
-
-.about-item {
-  display: flex;
-  flex: 1; }
-  .about-item:not(:last-child) {
-    margin-right: 4rem; }
-  .about-item__left-part {
-    margin-right: 3rem; }
-  .about-item__right-part h2 {
-    font-size: 3rem;
-    font-weight: 400;
-    color: #1B6F96;
-    letter-spacing: 1px;
-    margin-bottom: 1rem; }
-  .about-item__right-part h3 {
-    font-size: 2rem;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin-bottom: 3rem;
-    color: #CC3399; }
-  .about-item__right-part p {
-    font-weight: 300;
-    font-size: 1.75rem; }
-
-.icon-font {
-  margin-top: 3rem; }
-
-.icon-list {
-  display: flex;
-  list-style: none; }
-  .icon-list__icon-link:not(:last-child) {
-    margin-right: 2rem; }
-  .icon-list__icon-photo {
-    height: 2.5rem;
-    width: 2.5rem; }
+/* Section-2 Start*/
+.section-2 .team-members {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-row-gap: 8rem;
+  grid-column-gap: 2rem;
+  justify-content: space-around; }
+  .section-2 .team-members .card {
+    display: flex; }
+    .section-2 .team-members .card .right-part {
+      padding: 0 2rem; }
+      .section-2 .team-members .card .right-part h3 {
+        font-weight: 300;
+        font-size: 2.5rem;
+        color: #3bb0d7; }
+      .section-2 .team-members .card .right-part h4 {
+        font-weight: 400;
+        font-size: 1.8rem;
+        padding: 1rem 0;
+        color: #cc3399; }
+      .section-2 .team-members .card .right-part p {
+        color: #626364;
+        margin: 2rem 0;
+        line-height: 3rem; }
+      .section-2 .team-members .card .right-part .icons img {
+        height: 3rem;
+        width: 3rem;
+        padding: 0.5rem;
+        transition: all 0.5s; }
+        .section-2 .team-members .card .right-part .icons img:hover {
+          position: relative;
+          border-radius: 1rem;
+          color: #fff;
+          background-color: #3bb0d7;
+          transform: rotate(360deg); }
 
 /*ABOUT SECTION-3 // This is section-2*/
 .section-3 {
@@ -322,7 +309,7 @@ footer {
         margin-bottom: 2.5rem;
         font-size: 3rem;
         font-weight: 400;
-        color: #30759C; }
+        color: #30759c; }
       .section-4-row__right-part-paragraph-1, .section-4-row__right-part-paragraph-2 {
         margin-bottom: 2.5rem;
         font-weight: 400;

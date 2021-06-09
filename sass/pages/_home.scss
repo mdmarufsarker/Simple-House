@@ -1,193 +1,186 @@
-.container{
-    width: 120rem;
-    margin: 0 auto;
-    background: $color-white;
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  background: $color-white;
 }
 
-.heading-text{
-    padding: 5rem 0;
-    text-align: center;
-    h2{
-        font-size: 4rem;
-        font-weight: 400;
-        margin-bottom: 30px;
-    }
-    p{
-        color: $color-desc;
-        line-height: 2;
-        margin-bottom: 5rem;
-    }
+.heading-text {
+  // padding: 0;
+  text-align: center;
+  h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  p {
+    color: $color-desc;
+    line-height: 2;
+    margin-bottom: 5rem;
+  }
 }
 
 /////////////////////////
-////// HOME SECTION 
+////// HOME SECTION
 
 /* Section-1 Start*/
-.section-1{
+.section-1 {
+  width: 120rem;
+  height: 40.6rem;
+  header {
     width: 120rem;
     height: 40.6rem;
-    header{
-        width: 120rem;
-        height: 40.6rem;
-        background-image: url(img/simple-house-01.jpg);
-        background-repeat: no-repeat;
-        background-position:  center -40rem;
-        background-attachment: fixed;
+    background-image: url(img/simple-house-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center -40rem;
+    background-attachment: fixed;
 
-        nav{
-            color: $color-white;
-            display: flex;
-            justify-content: space-between;
-            padding: 0 8rem;
-            padding-top: 30rem;
-            .logo-part{
-                display: flex;
-                margin: auto 0;
-                .logo{
-                    img{
-                        height: 5rem;
-                    }
-                }
-                .title{
-                    padding-left: 2rem;
-                    h1{
-                        font-size: 4rem;
-                        font-weight: 300;
-                    }
-                }
-            }
-            .nav-item{
-                margin: auto 0;
-                a{
-                    color: $color-white;
-                    padding: 0 2rem;
-                    position: relative;
-                    &:nth-child(2):hover::after,
-                    &:nth-child(3):hover::after{
-                        content: "";
-                        position: absolute;
-                        height: .15rem;
-                        width: 7rem;
-                        bottom: -1rem;
-                        left: 1.1rem;
-                        background: $color-white;
-                    }
-                    &:nth-child(3):hover::after{
-                        width: 8rem;
-                        bottom: -1rem;
-                        left: 1.3rem;
-                    }
-                }
-                .active::after{
-                    content: "";
-                    position: absolute;
-                    height: .15rem;
-                    width: 7rem;
-                    bottom: -1rem;
-                    left: 1.1rem;
-                    background: $color-white;
-                }
-            }
+    nav {
+      color: $color-white;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 8rem;
+      padding-top: 30rem;
+      .logo-part {
+        display: flex;
+        margin: auto 0;
+        .logo {
+          img {
+            height: 5rem;
+          }
         }
+        .title {
+          padding-left: 2rem;
+          h1 {
+            font-size: 4rem;
+            font-weight: 300;
+          }
+        }
+      }
+      .nav-item {
+        margin: auto 0;
+        a {
+          color: $color-white;
+          padding: 0 2rem;
+          position: relative;
+          &:nth-child(2):hover::after,
+          &:nth-child(3):hover::after {
+            content: "";
+            position: absolute;
+            height: 0.15rem;
+            width: 7rem;
+            bottom: -1rem;
+            left: 1.1rem;
+            background: $color-white;
+          }
+          &:nth-child(3):hover::after {
+            width: 8rem;
+            bottom: -1rem;
+            left: 1.3rem;
+          }
+        }
+        .active::after {
+          content: "";
+          position: absolute;
+          height: 0.15rem;
+          width: 7rem;
+          bottom: -1rem;
+          left: 1.1rem;
+          background: $color-white;
+        }
+      }
     }
+  }
 }
 /* Section-1 End*/
 
 /* Section-2 Start*/
-.section-2{
-    .post{
-        .menu{
-            display: block;
-            margin-bottom: 7rem;
-            a{
-                font-size: 1.8rem;
-            }
-        }
-        .posts{
-            margin: 0 2rem;
-            .row{
-                display: grid;
-                grid-template-columns: repeat(4, auto);
-                grid-template-rows: repeat(2, auto);
-                // grid-gap: 1rem;
-                justify-content: space-around;
-                margin-bottom: 3rem;
-                .item{
-                    img{
-                        max-width: 100%;
-                        height: auto;
-                    }
-                    h3{
-                        color: $color-blue-lite;
-                        font-weight: 400;
-                        padding: 1.3rem 0;
-                    }
-                    p{
-                        line-height: 1.8;
-                        color: $color-desc;
-                        margin-bottom: 2rem;
-                    }
-                    span{
-                        display: block;
-                        color: $color-green-lite;
-                        padding-bottom: 3rem;
-                    }
-                }
-            }
-        }
+.section-2 {
+  .post {
+    .menu {
+      display: block;
+      margin-bottom: 7rem;
+      a {
+        font-size: 1.8rem;
+      }
     }
+    .posts {
+      // margin: 0;
+      .row {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 2rem;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        .item {
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+          h3 {
+            color: $color-blue-lite;
+            font-weight: 400;
+            padding: 1.3rem 0;
+          }
+          p {
+            line-height: 1.8;
+            color: $color-desc;
+            margin-bottom: 2rem;
+          }
+          span {
+            display: block;
+            color: $color-green-lite;
+            padding-bottom: 3rem;
+          }
+        }
+      }
+    }
+  }
 }
 /* Section-2 End*/
 
 /* Section-3 Start*/
-.section-3{
-    .row{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(1, auto);
-        grid-gap: 1rem;
-        padding-bottom: 5rem;
-        .left-part{
-            width: 80%;
-            img{
-                height: 30rem;
-                width: 50rem;
-                margin-left: 5rem;
-            }
-        }
-        .right-part{
-            width: 100%;
-            margin-left: -10rem;
-            h3{
-                color: $color-blue-lite;
-                font-size: 3rem;
-                font-weight: 400;
-                padding: 2rem 0;
-            }
-            p{
-                color: $color-readmore;
-                line-height: 1.6;
-            }
-            .more{
-                margin: 2rem 10rem 0 0;
-                button{
-                    font-size: 1.5rem;
-                    border: .15rem solid $color-readmore;
-                    color: $color-readmore;
-                    &:hover{
-                        color: $color-white;
-                        background-color: $color-readmore;
-                    }
-                }
-            }
-        }
+.section-3 {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-gap: 1rem;
+    padding-bottom: 5rem;
+    .left-part {
+      width: 80%;
+      img {
+        height: 30rem;
+        width: 50rem;
+        margin-left: 5rem;
+      }
     }
+    .right-part {
+      width: 100%;
+      margin-left: -10rem;
+      h3 {
+        color: $color-blue-lite;
+        font-size: 3rem;
+        font-weight: 400;
+        padding: 2rem 0;
+      }
+      p {
+        color: $color-readmore;
+        line-height: 1.6;
+      }
+      .more {
+        margin: 2rem 10rem 0 0;
+        button {
+          font-size: 1.5rem;
+          border: 0.15rem solid $color-readmore;
+          color: $color-readmore;
+          &:hover {
+            color: $color-white;
+            background-color: $color-readmore;
+          }
+        }
+      }
+    }
+  }
 }
 /* Section-3 End*/
-
-
-
-//////////////////////////////
-///// CONTACT SECTION
-
-
