@@ -1,50 +1,56 @@
-.btn-blue{
-    background: $color-green-lite;
+.btn-blue {
+  background: $color-tm-name;
+  color: $color-white;
 }
-.btn-blue:hover{
-    background: $color-green-dark;
+.btn-blue:hover {
+  background: $color-blue-dark;
 }
-.btn-green-lite{
-    border: .1rem solid $color-green-lite;
-    color: $color-green-lite;
+.btn-green-lite {
+  border: 0.1rem solid $color-green-lite;
+  color: $color-green-lite;
 }
-.btn-green-lite:hover{
-    color: $color-white;
-    background-color: $color-green-lite;
+.btn-green-lite:hover {
+  color: $color-white;
+  background-color: $color-green-lite;
 }
-.btn-red{
-    background: $color-red-lite;
-    color: $color-white;
+.btn-green {
+  background: $color-green-lite;
+  color: $color-white;
 }
-.btn-red:hover{
-    background: $color-red-dark;
-    
+.btn-green:hover {
+  background: $color-green-dark;
 }
-.btn-readmore{
-    background: $color-white;
+.btn-red {
+  background: $color-red-lite;
+  color: $color-white;
 }
-.btn-readmore:hover{
-    background: $color-readmore;
+.btn-red:hover {
+  background: $color-red-dark;
 }
-.btn-green-lite-active{
-    background: $color-green-lite;
-    color: $color-white;
+.btn-readmore {
+  background: $color-white;
 }
-.btn-green-dark{
-    background: $color-green-dark;
-    color: white;
+.btn-readmore:hover {
+  background: $color-readmore;
+}
+.btn-green-lite-active {
+  background: $color-green-lite;
+  color: $color-white;
+}
+.btn-green-dark {
+  background: $color-green-dark;
+  color: white;
 }
 .btn-green-dark:hover {
-    background: $color-green-lite;
-    color: $color-white;
+  background: $color-green-lite;
+  color: $color-white;
 }
-.btn-blue-dark{
-    background: $color-blue-dark;
-    color: $color-white;
+.btn-blue-dark {
+  background: $color-blue-dark;
+  color: $color-white;
 }
 
 .btn-blue-dark:hover {
-    background: $color-blue-lite;
-    color:$color-white;
+  background: $color-blue-lite;
+  color: $color-white;
 }
-

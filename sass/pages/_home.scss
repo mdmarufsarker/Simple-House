@@ -94,7 +94,8 @@
 /* Section-1 End*/
 
 /* Section-2 Start*/
-.section-2 {
+.section-2-home {
+  margin: 5rem 2rem;
   .post {
     .menu {
       display: block;
@@ -142,22 +143,17 @@
 /* Section-3 Start*/
 .section-3 {
   .row {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(1, auto);
-    grid-gap: 1rem;
+    display: flex;
+    flex-direction: row;
     padding-bottom: 5rem;
     .left-part {
-      width: 80%;
       img {
         height: 30rem;
         width: 50rem;
-        margin-left: 5rem;
       }
     }
     .right-part {
-      width: 100%;
-      margin-left: -10rem;
+      margin-left: 3rem;
       h3 {
         color: $color-blue-lite;
         font-size: 3rem;

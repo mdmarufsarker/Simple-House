@@ -1,5 +1,6 @@
 /* Section-2 Start*/
-.section-2 {
+.section-2-about {
+  margin: 5rem;
   .team-members {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -7,7 +8,7 @@
     grid-row-gap: 8rem;
     grid-column-gap: 2rem;
     justify-content: space-around;
-
+    margin-top: 3rem;
     .card {
       display: flex;
       .right-part {
@@ -48,9 +49,10 @@
   }
 }
 /*ABOUT SECTION-3 // This is section-2*/
-.section-3 {
-  padding: 0 3.5rem;
+.section-3-about {
+  padding: 0 2rem;
   margin-top: 3rem;
+  width: 100%;
 
   &__long-img {
     background-image: url(img/about-05.jpg);
@@ -62,8 +64,8 @@
   }
 }
 
-/*ABOUT SECTION-2 //This is section-3*/
-.section-2 {
+/*ABOUT SECTION-4 //This is section-3*/
+.section-4 {
   padding: 4rem 7rem 2rem;
   margin-top: 3rem;
   &__row {
@@ -79,19 +81,21 @@
       }
     }
     &-feature {
-      &-description {
+      img {
+        height: 7rem;
+        width: 7em;
         margin-bottom: 3rem;
       }
-
-      &-icon {
-        //Need to add
+      &-description {
+        margin-bottom: 3rem;
+        line-height: 3rem;
       }
     }
   }
 }
 
 /*ABOUT SECTION-4*/
-.section-4 {
+.section-5 {
   padding: 0 3.5rem;
   padding-top: 3rem;
   margin-top: 3rem;
