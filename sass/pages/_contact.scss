@@ -70,8 +70,69 @@
       }
     }
   }
+
+  //Asiek part incomplete js
   .section-3 {
     width: 80%;
     margin: 3rem auto;
   }
+  .section-4-faq {
+    margin:5rem 0;
+    .heading-text-faq {
+      text-align: center;
+      h1{
+        font-size:3rem;
+        font-weight: 400;
+        margin-bottom:2rem;
+
+      }
+      p{
+        color:$color-desc;
+        line-height: 2;
+      }
+    }
+    .faq-main{
+      width: 60%;
+      margin:5rem auto;
+
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+
+      .faq__box{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        border:2px solid $color-border-grey-lite;
+        margin-bottom:2rem;
+        padding: 2rem;
+
+        .faq__answere{
+          max-height: 0;
+          overflow:hidden;
+
+          p{
+            margin-top:1rem;
+            color:$color-grey;
+          }
+        }
+        .faq__question{
+          display:flex;
+          justify-content:space-between;
+          align-items: center;
+
+          h1{
+            font-size:2rem;
+            font-weight: 400;
+            color:$color-desc;
+          } 
+        }
+      }
+    }
+  }
+
+  .faq__box.active .faq__answere {
+   max-height: 300px;
+  }
 }
+
